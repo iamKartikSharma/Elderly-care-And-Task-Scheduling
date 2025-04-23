@@ -1,0 +1,6 @@
+// ... existing code ...
+
+const ratingRoutes = require('../../../server/routes/ratingRoutes');
+app.use('/api/ratings', ratingRoutes);
+
+// ... existing code ...

@@ -1,0 +1,25 @@
+@keyframes growShrinkTilt {
+    0% {
+      transform: scale(1) rotate(0deg);
+    }
+    25% {
+      transform: scale(1.1) rotate(5deg);
+    }
+    50% {
+      transform: scale(0.9) rotate(-5deg);
+    }
+    75% {
+      transform: scale(1.05) rotate(3deg);
+    }
+    100% {
+      transform: scale(1) rotate(0deg);
+    }
+  }
+  
+  .animated-svg {
+    width: 100%;
+    max-width: 300px;
+    animation: growShrinkTilt 3s infinite ease-in-out;
+    display: block; /* Ensures no extra space issues */
+  }
+  
